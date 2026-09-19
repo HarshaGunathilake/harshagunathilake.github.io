@@ -13,7 +13,6 @@ import SelectedWork from "@/components/projects/SelectedWork";
 import Services from "@/components/services/Services";
 import Skills from "@/components/skills/Skills";
 import Numbers from "@/components/numbers/Numbers";
-import Testimonials from "@/components/testimonials/Testimonials";
 import Contact from "@/components/contact/Contact";
 import Footer from "@/components/footer/Footer";
 
@@ -46,7 +45,6 @@ export default function Home() {
         <Services />
         <Skills />
         <Numbers />
-        <Testimonials />
         <Contact />
       </main>
 

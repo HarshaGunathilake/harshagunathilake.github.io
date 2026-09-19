@@ -5,8 +5,8 @@ import AnimatedCounter from "@/components/ui/AnimatedCounter";
 
 const STATS = [
   { value: 5, suffix: "+", label: "Years Experience" },
-  { value: 30, suffix: "+", label: "Projects Delivered" },
-  { value: 15, suffix: "+", label: "Clients Worldwide" },
+  { value: 25, suffix: "+", label: "Projects Delivered" },
+  { value: 7, suffix: "+", label: "Clients Worldwide" },
   { value: 20, suffix: "+", label: "Technologies" },
 ];
 

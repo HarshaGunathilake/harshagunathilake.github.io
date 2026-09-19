@@ -68,7 +68,7 @@ export default function Preloader({ onComplete }: { onComplete: () => void }) {
           transition={{ duration: 0.6, delay: 0.2, ease: EASE.smooth }}
           className="eyebrow"
         >
-          HARSHAGUNATHILAKE.DEV
+          HARSHA GUNATHILAKE
         </motion.div>
       </div>
 

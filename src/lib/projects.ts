@@ -18,6 +18,103 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    id: "toolgenie",
+    index: "08",
+    title: "ToolGenie",
+    category: "AI Content Creation Platform",
+    year: " ",
+    tech: ["React", "Next.js", "Tailwind CSS"],
+    description:
+      "An AI-powered content-creation platform that takes YouTube creators from idea to publish — video ideas, scripts, voiceovers, thumbnails, titles, descriptions and tags, plus tools for Facebook and X. I contributed to the frontend.",
+    challenge:
+      "Creators juggling ideation, scripting, voiceover, thumbnails and optimisation across separate tools needed one connected workspace that didn't trade output quality for speed.",
+    solution:
+      "I worked on the frontend/UI for ToolGenie's suite of AI generation tools — the YouTube idea, script, title, description and tag generators, plus the dashboard shell tying Facebook, X, audio and image tools together into a single token-based workspace.",
+    responsibilities: [
+      "Frontend/UI development for the AI tool suite",
+      "Dashboard and tool-card UI implementation",
+      "Cross-platform tool surfaces (YouTube, Facebook, X, Audio, Image)",
+    ],
+    results:
+      "Contributed to a live production SaaS platform serving content creators across multiple subscription tiers, from solo creators to scaling channels.",
+    liveUrl: "https://toolgenie.io/",
+    image: "/images/projects/toolgenie.png",
+    color: "#8b5cf6",
+  },
+  {
+    id: "ayozat-stream",
+    index: "09",
+    title: "AYOZAT Stream",
+    category: "OTT / Streaming Platform",
+    year: "2022 – Present",
+    tech: ["React", "Node.js", "Laravel", "MySQL", "Fastly", "Cloudflare"],
+    description:
+      "AYOZAT's all-in-one entertainment hub — on-demand movies and series, live TV channels, music and radio, podcasts and pay-per-view events in a single subscription platform. Part of my ongoing role leading OTT platform development at AYOZAT Holdings.",
+    challenge:
+      "Users wanted one place for movies, live TV, music, podcasts and live events instead of juggling separate single-purpose subscriptions, while the business needed a platform that could scale delivery and support a compliance-gated PPV workflow.",
+    solution:
+      "As part of my role at AYOZAT, I work across product planning, frontend and backend for the platform — spanning VOD and live-TV playback, the music/radio and podcast surfaces, and pay-per-view event delivery — on a Node.js/Laravel backend with MySQL, fronted by React and served through Fastly and Cloudflare for reliable delivery at scale.",
+    responsibilities: [
+      "Product planning for platform features",
+      "Frontend development",
+      "Backend development",
+      "Live TV, VOD, music, podcast and PPV integration",
+    ],
+    results:
+      "Ongoing contribution to a live, multi-format streaming platform positioned as an all-in-one alternative to single-purpose services like Netflix or Spotify.",
+    liveUrl: "http://ayozat.com/",
+    image: "/images/projects/ayozat-stream.png",
+    color: "#e0245e",
+  },
+  {
+    id: "rightsmint",
+    index: "10",
+    title: "RightsMint",
+    category: "Web3 / IP Rights Platform",
+    year: "2023",
+    tech: ["React", "Node.js", "Solidity", "Web3.js"],
+    description:
+      "A blockchain platform letting creators and investors own real, on-chain shares of real-world copyrights — starting with music. I contributed across frontend/UI, backend/API and the on-chain registration logic.",
+    challenge:
+      "Traditional copyright ownership and trading is opaque and hard to fractionalise; the platform needed a way to represent real-world IP rights on-chain that's both verifiable and usable through an approachable web interface.",
+    solution:
+      "I worked across the stack — the frontend/UI for browsing and buying rights shares, backend/API work connecting the web app to on-chain state, and the on-chain registration/ownership logic itself — building toward a marketplace and liquidity pool for trading fractional copyright ownership.",
+    responsibilities: [
+      "Frontend/UI development",
+      "Backend/API development",
+      "On-chain registration and smart contract work",
+    ],
+    results:
+      "Contributed to a pre-launch Web3 platform for fractional, on-chain copyright ownership, with a marketplace and liquidity pool in development.",
+    liveUrl: "https://rightsmint.com/",
+    image: "/images/projects/rightsmint.png",
+    color: "#ec1861",
+  },
+  {
+    id: "luxor-car-detailing",
+    index: "11",
+    title: "Luxor Car Detailing",
+    category: "Service Business Website",
+    year: "2026",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    description:
+      "A premium marketing and booking site for a car detailing service — full-bleed cinematic imagery, services, work showcase and a booking flow, built solo end-to-end.",
+    challenge:
+      "The business needed a web presence that read as premium as the detailing work itself, with a straightforward path from landing page to booked appointment.",
+    solution:
+      "I designed and built the site solo in Next.js and TypeScript — a full-bleed hero and service sections built around real detailing photography, a work/portfolio showcase, and a clear booking call-to-action throughout.",
+    responsibilities: [
+      "Full end-to-end design and development",
+      "Next.js/TypeScript build",
+      "Services, work showcase and booking flow",
+    ],
+    results:
+      "Shipped a fully responsive, production-ready site giving the business a premium online presence and a clear booking path.",
+    liveUrl: "https://car-detailing-web-steel.vercel.app/",
+    image: "/images/projects/luxor-detailing.png",
+    color: "#c9a227",
+  },
+  {
     id: "echoing-dream-resort",
     index: "01",
     title: "Echoing Dream Resort",
@@ -207,4 +304,5 @@ export const projects: Project[] = [
     image: "/images/projects/sms.jpg",
     color: "#2563eb",
   },
+  
 ];
