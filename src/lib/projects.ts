@@ -92,24 +92,24 @@ export const projects: Project[] = [
   },
   {
     id: "luxor-car-detailing",
-    index: "04",
+    index: "11",
     title: "Luxor Car Detailing",
-    category: "Service Business Website",
+    category: "Concept Service Business Website",
     year: "2026",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
     description:
-      "A premium marketing and booking site for a car detailing service — full-bleed cinematic imagery, services, work showcase and a booking flow, built solo end-to-end.",
+      "A self-directed concept site for a fictional car detailing service — full-bleed cinematic imagery, services, work showcase and a booking flow, designed and built solo end-to-end.",
     challenge:
-      "The business needed a web presence that read as premium as the detailing work itself, with a straightforward path from landing page to booked appointment.",
+      "I wanted a portfolio piece for a local service business that read as premium as the work itself, with a straightforward path from landing page to booked appointment.",
     solution:
-      "I designed and built the site solo in Next.js and TypeScript — a full-bleed hero and service sections built around real detailing photography, a work/portfolio showcase, and a clear booking call-to-action throughout.",
+      "I designed and built the concept solo in Next.js and TypeScript — a full-bleed hero and service sections built around detailing photography, a work/portfolio showcase, and a clear booking call-to-action throughout.",
     responsibilities: [
       "Full end-to-end design and development",
       "Next.js/TypeScript build",
       "Services, work showcase and booking flow",
     ],
     results:
-      "Shipped a fully responsive, production-ready site giving the business a premium online presence and a clear booking path.",
+      "Shipped a fully responsive concept site demonstrating a premium small-business web presence with a clear booking path.",
     liveUrl: "https://car-detailing-web-steel.vercel.app/",
     image: "/images/projects/luxor-detailing.png",
     color: "#c9a227",
@@ -165,11 +165,11 @@ export const projects: Project[] = [
     image: "/images/projects/echoing-dream-resort.jpg",
     color: "#A9834E",
   },
-  {
+   {
     id: "villa-aurelia",
     index: "07",
     title: "Villa Aurelia",
-    category: "Luxury Villa Booking & Admin CMS",
+    category: "Concept Villa Booking & Admin CMS",
     year: "2026",
     tech: [
       "Next.js 16",
@@ -179,11 +179,11 @@ export const projects: Project[] = [
       "Framer Motion",
     ],
     description:
-      "A full-stack website and private admin system for a four-bedroom luxury villa in Galle Fort, southern Sri Lanka — a public booking site backed entirely by a database, plus a custom CMS so the owner can update every page, price and photo themselves.",
+      "A self-directed concept build: a full-stack website and private admin system for a fictional four-bedroom luxury villa in Galle Fort, southern Sri Lanka — a public booking site backed entirely by a database, plus a custom CMS so an owner could update every page, price and photo themselves.",
     challenge:
-      "The client needed more than a brochure site: a polished public experience for browsing suites, experiences and dining, taking real bookings and enquiries — and a way to manage all of it (pricing, room details, gallery, testimonials, even page headings) without ever touching code or waiting on a developer.",
+      "I wanted to go beyond a brochure site and prove out a real product pattern: a polished public experience for browsing suites, experiences and dining, taking bookings and enquiries — plus a way to manage all of it (pricing, room details, gallery, testimonials, even page headings) without ever touching code.",
     solution:
-      "I built a Next.js App Router site with every piece of content — villa copy, rooms, amenities, experiences, dining, gallery, testimonials, contact info, booking pricing, and even page hero text — served from a Postgres (Neon) database, with a static fallback so the site never breaks if the database is briefly unreachable. Behind a signed-cookie authenticated /admin panel, the owner gets a dashboard plus full CRUD across every content type, a live bookings and enquiries inbox, and per-page settings editors. Each experience also has its own detail page with a secondary photo, distance and 'Get Directions' link, and a 'Good to Know' section. The booking flow and contact form write directly into the database rather than just sending an email.",
+      "I built a Next.js App Router site with every piece of content — villa copy, rooms, amenities, experiences, dining, gallery, testimonials, contact info, booking pricing, and even page hero text — served from a Postgres (Neon) database, with a static fallback so the site never breaks if the database is briefly unreachable. Behind a signed-cookie authenticated /admin panel, an owner gets a dashboard plus full CRUD across every content type, a live bookings and enquiries inbox, and per-page settings editors. Each experience also has its own detail page with a secondary photo, distance and 'Get Directions' link, and a 'Good to Know' section. The booking flow and contact form write directly into the database rather than just sending an email.",
     responsibilities: [
       "Full-stack Next.js 16 (App Router) build with a Postgres (Neon) backend",
       "Custom admin authentication (signed HMAC session cookies, no third-party auth service)",
@@ -193,7 +193,7 @@ export const projects: Project[] = [
       "Experience detail pages with distance/directions and practical trip info",
     ],
     results:
-      "Delivered a fully dynamic villa website the owner can run day-to-day without a developer — every page, price and photo editable from a private dashboard — with real bookings and guest enquiries captured and manageable in one place.",
+      "Shipped a fully dynamic concept villa website that an owner could run day-to-day without a developer — every page, price and photo editable from a private dashboard — demonstrating a complete full-stack product build from database to admin CMS to public site.",
     liveUrl: "https://villa-modern.vercel.app/",
     image: "/images/projects/au.png",
     color: "#6B7F5E",
@@ -275,15 +275,15 @@ export const projects: Project[] = [
     id: "amrit-palace",
     index: "11",
     title: "Amrit Palace",
-    category: "Restaurant Website",
+    category: "Concept Restaurant Website",
     year: "2026",
     tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
     description:
-      "A fine-dining Indian restaurant website for Amrit Palace in Galle, Sri Lanka, built as a fully custom Next.js site with cinematic scroll storytelling and a live reservation flow.",
+      "A self-directed concept website for a fictional fine-dining Indian restaurant, 'Amrit Palace' — a fully custom Next.js build exploring cinematic scroll storytelling and a working reservation flow.",
     challenge:
-      "The client wanted a premium, cinematic web presence that felt bespoke rather than templated, with a complete à la carte menu and a working table-reservation system — not just a static brochure site.",
+      "I wanted a portfolio piece that pushed past generic restaurant-template defaults — a premium, cinematic feel with a complete à la carte menu and a fully working table-reservation system, not just a static brochure layout.",
     solution:
-      "I built the site from scratch in Next.js and TypeScript with a custom design system: a bold charcoal-and-ember palette and heavyweight display type breaking from generic restaurant-template defaults, Framer Motion scroll reveals with one deliberate cinematic peak, a dedicated full-menu page, and a bespoke reservation form with meal-aware time slots and a searchable country-code phone picker.",
+      "I designed and built the concept from scratch in Next.js and TypeScript with a custom design system: a bold charcoal-and-ember palette and heavyweight display type, Framer Motion scroll reveals with one deliberate cinematic peak, a dedicated full-menu page, and a bespoke reservation form with meal-aware time slots and a searchable country-code phone picker.",
     responsibilities: [
       "Full front-end development",
       "Custom design system and art direction",
@@ -291,7 +291,7 @@ export const projects: Project[] = [
       "Reservation flow logic and form UX",
     ],
     results:
-      "Shipped a fully responsive, production-ready site with a distinct visual identity, a dedicated menu page, and a working reservation flow, deployed as the restaurant's live online presence.",
+      "Shipped a fully responsive concept site with a distinct visual identity, a dedicated menu page, and a working reservation flow — demonstrating end-to-end product design and build capability.",
     liveUrl: "https://restaurants-web-theta.vercel.app/",
     image: "/images/projects/restaurant.png",
     color: "#c1401c",
