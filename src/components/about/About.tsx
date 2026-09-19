@@ -11,7 +11,7 @@ const STATS = [
   { value: 5, suffix: "+", label: "Years Experience" },
   { value: 25, suffix: "+", label: "Projects" },
   { value: 20, suffix: "+", label: "Technologies" },
-  { value: 7, suffix: "+", label: "Clients" },
+  { value: 15, suffix: "+", label: "Clients" },
 ];
 
 export default function About() {
