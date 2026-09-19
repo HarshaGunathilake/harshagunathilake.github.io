@@ -19,10 +19,10 @@ export interface Project {
 export const projects: Project[] = [
   {
     id: "toolgenie",
-    index: "08",
+    index: "01",
     title: "ToolGenie",
     category: "AI Content Creation Platform",
-    year: " ",
+    year: "2025",
     tech: ["React", "Next.js", "Tailwind CSS"],
     description:
       "An AI-powered content-creation platform that takes YouTube creators from idea to publish — video ideas, scripts, voiceovers, thumbnails, titles, descriptions and tags, plus tools for Facebook and X. I contributed to the frontend.",
@@ -43,17 +43,17 @@ export const projects: Project[] = [
   },
   {
     id: "ayozat-stream",
-    index: "09",
+    index: "02",
     title: "AYOZAT Stream",
     category: "OTT / Streaming Platform",
     year: "2022 – Present",
     tech: ["React", "Node.js", "Laravel", "MySQL", "Fastly", "Cloudflare"],
     description:
-      "AYOZAT's all-in-one entertainment hub — on-demand movies and series, live TV channels, music and radio, podcasts and pay-per-view events in a single subscription platform. Part of my ongoing role leading OTT platform development at AYOZAT Holdings.",
+      "AYOZAT Holdings' all-in-one entertainment hub — on-demand movies and series, live TV channels, music and radio, podcasts and pay-per-view events in a single subscription platform. Part of my ongoing role leading OTT platform development at AYOZAT Holdings.",
     challenge:
       "Users wanted one place for movies, live TV, music, podcasts and live events instead of juggling separate single-purpose subscriptions, while the business needed a platform that could scale delivery and support a compliance-gated PPV workflow.",
     solution:
-      "As part of my role at AYOZAT, I work across product planning, frontend and backend for the platform — spanning VOD and live-TV playback, the music/radio and podcast surfaces, and pay-per-view event delivery — on a Node.js/Laravel backend with MySQL, fronted by React and served through Fastly and Cloudflare for reliable delivery at scale.",
+      "As part of my role at AYOZAT Holdings I work across product planning, frontend and backend for the platform — spanning VOD and live-TV playback, the music/radio and podcast surfaces, and pay-per-view event delivery — on a Node.js/Laravel backend with MySQL, fronted by React and served through Fastly and Cloudflare for reliable delivery at scale.",
     responsibilities: [
       "Product planning for platform features",
       "Frontend development",
@@ -68,10 +68,10 @@ export const projects: Project[] = [
   },
   {
     id: "rightsmint",
-    index: "10",
+    index: "03",
     title: "RightsMint",
     category: "Web3 / IP Rights Platform",
-    year: "2023",
+    year: "2025",
     tech: ["React", "Node.js", "Solidity", "Web3.js"],
     description:
       "A blockchain platform letting creators and investors own real, on-chain shares of real-world copyrights — starting with music. I contributed across frontend/UI, backend/API and the on-chain registration logic.",
@@ -92,7 +92,7 @@ export const projects: Project[] = [
   },
   {
     id: "luxor-car-detailing",
-    index: "11",
+    index: "04",
     title: "Luxor Car Detailing",
     category: "Service Business Website",
     year: "2026",
@@ -115,8 +115,33 @@ export const projects: Project[] = [
     color: "#c9a227",
   },
   {
+    id: "lashunda-scales",
+    index: "05",
+    title: "Lashunda Scales",
+    category: "Political Campaign Website",
+    year: "2026",
+    tech: ["WordPress", "Elementor", "Mailchimp", "Stripe", "Hostinger", "Cloudflare CDN"],
+    description:
+      "The official re-election campaign website for Lashunda Scales, Jefferson County Commissioner for District 1 — a full-bleed cinematic landing page, candidate bio, news, volunteer sign-up and donation flow.",
+    challenge:
+      "The campaign needed a fast, polished site that could go live quickly, accept donations securely, capture volunteer and supporter emails, and stay performant under traffic spikes around news coverage and events.",
+    solution:
+      "I built the site end-to-end on WordPress with Elementor, from the full-bleed hero through the About, News, Volunteer and Contact sections, and wired up the full backend: Stripe for secure online donations, Mailchimp for volunteer/supporter email capture and campaign newsletters, Hostinger for hosting, and Cloudflare CDN in front for performance and uptime under traffic spikes.",
+    responsibilities: [
+      "Full end-to-end WordPress/Elementor design and build",
+      "Stripe donation integration",
+      "Mailchimp email capture and newsletter setup",
+      "Hosting on Hostinger with Cloudflare CDN",
+    ],
+    results:
+      "Shipped a fast, secure campaign site handling donations and volunteer sign-ups, hosted for reliability under election-cycle traffic.",
+    liveUrl: "https://lashundascales.com/",
+    image: "/images/projects/lashunda-scales.jpg",
+    color: "#1d3a8f",
+  },
+  {
     id: "echoing-dream-resort",
-    index: "01",
+    index: "06",
     title: "Echoing Dream Resort",
     category: "Luxury Villa Booking",
     year: "2026",
@@ -142,7 +167,7 @@ export const projects: Project[] = [
   },
   {
     id: "villa-aurelia",
-    index: "02",
+    index: "07",
     title: "Villa Aurelia",
     category: "Luxury Villa Booking & Admin CMS",
     year: "2026",
@@ -175,7 +200,7 @@ export const projects: Project[] = [
   },
   {
     id: "villa-booking",
-    index: "03",
+    index: "08",
     title: "Go House Proud",
     category: "Service Booking Website",
     year: "2026",
@@ -199,7 +224,7 @@ export const projects: Project[] = [
   },
   {
     id: "loan-management",
-    index: "04",
+    index: "09",
     title: "Loan Management System",
     category: "Fintech / Admin Platform",
     year: "2025",
@@ -218,13 +243,13 @@ export const projects: Project[] = [
     ],
     results:
       "Delivered a working demo of a lender-facing loan operations platform, covering portfolio, collections and reporting in one authenticated system.",
-    liveUrl: "https://loan-management-system-liard-theta.vercel.app/",
+    liveUrl: "",
     image: "/images/projects/loan.jpg",
     color: "#4f8fc0",
   },
   {
     id: "corporate-site",
-    index: "05",
+    index: "10",
     title: "Eco Facility Management",
     category: "Corporate Website",
     year: "2023",
@@ -248,7 +273,7 @@ export const projects: Project[] = [
   },
   {
     id: "amrit-palace",
-    index: "06",
+    index: "11",
     title: "Amrit Palace",
     category: "Restaurant Website",
     year: "2026",
@@ -273,7 +298,7 @@ export const projects: Project[] = [
   },
   {
     id: "sms-gateway",
-    index: "07",
+    index: "12",
     title: "Managed Bulk SMS Platform",
     category: "SaaS Admin Platform",
     year: "2026",
