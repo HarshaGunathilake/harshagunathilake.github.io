@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="1125" viewBox="0 0 900 1125">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#161618"/>
+      <stop offset="100%" stop-color="#0a0a0b"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="32%" r="55%">
+      <stop offset="0%" stop-color="#c9a45c35"/>
+      <stop offset="100%" stop-color="#c9a45c00"/>
+    </radialGradient>
+    <linearGradient id="face" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#c9a45c30"/>
+      <stop offset="100%" stop-color="#c9a45c10"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <circle cx="450" cy="410" r="185"/>
+    </clipPath>
+  </defs>
+
+  <rect width="900" height="1125" fill="url(#bg)"/>
+  <rect width="900" height="1125" fill="url(#glow)"/>
+
+  <!-- faceted low-poly head silhouette -->
+  <g clip-path="url(#clip)">
+    <rect x="265" y="225" width="370" height="370" fill="url(#face)"/>
+    <polygon points="450,225 635,340 560,595 340,595 265,340" fill="#c9a45c" fill-opacity="0.10" stroke="#c9a45c" stroke-opacity="0.4" stroke-width="1.5"/>
+    <polygon points="450,225 560,595 340,595" fill="#c9a45c" fill-opacity="0.06" stroke="#c9a45c" stroke-opacity="0.3" stroke-width="1"/>
+    <polygon points="450,225 635,340 450,420" fill="#c9a45c" fill-opacity="0.12" stroke="#c9a45c" stroke-opacity="0.3" stroke-width="1"/>
+    <polygon points="450,225 265,340 450,420" fill="#c9a45c" fill-opacity="0.08" stroke="#c9a45c" stroke-opacity="0.3" stroke-width="1"/>
+    <polygon points="450,420 635,340 560,595" fill="#c9a45c" fill-opacity="0.05" stroke="#c9a45c" stroke-opacity="0.25" stroke-width="1"/>
+    <polygon points="450,420 265,340 340,595" fill="#c9a45c" fill-opacity="0.09" stroke="#c9a45c" stroke-opacity="0.25" stroke-width="1"/>
+  </g>
+  <circle cx="450" cy="410" r="185" fill="none" stroke="#c9a45c" stroke-opacity="0.45" stroke-width="1.5"/>
+
+  <!-- shoulders -->
+  <path d="M 230 900 C 230 740 330 660 450 660 C 570 660 670 740 670 900 L 670 900 L 230 900 Z"
+        fill="#c9a45c" fill-opacity="0.08" stroke="#c9a45c" stroke-opacity="0.35" stroke-width="1.5"/>
+
+  <!-- decorative corner marks -->
+  <g stroke="#c9a45c" stroke-opacity="0.3" stroke-width="1.5">
+    <path d="M 60 60 L 60 110 M 60 60 L 110 60"/>
+    <path d="M 840 60 L 840 110 M 840 60 L 790 60"/>
+    <path d="M 60 1065 L 60 1015 M 60 1065 L 110 1065"/>
+    <path d="M 840 1065 L 840 1015 M 840 1065 L 790 1065"/>
+  </g>
+
+  <text x="450" y="1010" text-anchor="middle" font-family="Arial, sans-serif" font-size="28" letter-spacing="4" fill="#c9a45c" opacity="0.8" font-weight="700">HARSHA GUNATHILAKE</text>
+  <text x="450" y="1045" text-anchor="middle" font-family="Arial, sans-serif" font-size="15" letter-spacing="3" fill="#8a8a8f" opacity="0.9">FULL-STACK DEVELOPER</text>
+</svg>

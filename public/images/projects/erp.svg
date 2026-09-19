@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0b"/>
+      <stop offset="55%" stop-color="#131315"/>
+      <stop offset="100%" stop-color="#9c8ab818"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#9c8ab840"/>
+      <stop offset="100%" stop-color="#9c8ab800"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#9c8ab8" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <g transform="translate(600, 396)" stroke="#9c8ab8" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+    
+    <rect x="-170" y="-140" width="340" height="280" rx="12"/>
+    <line x1="-140" y1="90" x2="140" y2="90"/>
+    <rect x="-120" y="10" width="30" height="80" fill="currentColor" fill-opacity="0.85" stroke="none"/>
+    <rect x="-70" y="-30" width="30" height="120" fill="currentColor" fill-opacity="0.85" stroke="none"/>
+    <rect x="-20" y="-60" width="30" height="150" fill="currentColor" fill-opacity="0.85" stroke="none"/>
+    <polyline points="45,20 75,-20 105,10 135,-50" />
+  
+  </g>
+  <rect x="0" y="898" width="1200" height="2" fill="#9c8ab8" opacity="0.25"/>
+  <text x="60" y="844" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" fill="#9c8ab8" opacity="0.75" font-weight="700">ERP SUITE</text>
+  <circle cx="1130" cy="70" r="4" fill="#9c8ab8" opacity="0.6"/>
+  <circle cx="1130" cy="70" r="10" fill="none" stroke="#9c8ab8" stroke-width="1" opacity="0.35"/>
+</svg>

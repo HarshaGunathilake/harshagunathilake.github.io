@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0b"/>
+      <stop offset="55%" stop-color="#131315"/>
+      <stop offset="100%" stop-color="#a8b5a218"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#a8b5a240"/>
+      <stop offset="100%" stop-color="#a8b5a200"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#a8b5a2" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <g transform="translate(600, 396)" stroke="#a8b5a2" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+    
+    <path d="M -150 20 L 0 -110 L 150 20"/>
+    <rect x="-110" y="20" width="220" height="150" rx="6"/>
+    <rect x="-30" y="90" width="60" height="80"/>
+    <rect x="-80" y="50" width="40" height="40"/>
+    <rect x="40" y="50" width="40" height="40"/>
+    <line x1="-150" y1="20" x2="150" y2="20"/>
+  
+  </g>
+  <rect x="0" y="898" width="1200" height="2" fill="#a8b5a2" opacity="0.25"/>
+  <text x="60" y="844" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" fill="#a8b5a2" opacity="0.75" font-weight="700">BOOKING PLATFORM</text>
+  <circle cx="1130" cy="70" r="4" fill="#a8b5a2" opacity="0.6"/>
+  <circle cx="1130" cy="70" r="10" fill="none" stroke="#a8b5a2" stroke-width="1" opacity="0.35"/>
+</svg>

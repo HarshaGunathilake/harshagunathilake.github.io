@@ -1,0 +1,210 @@
+export interface Project {
+  id: string;
+  index: string;
+  title: string;
+  category: string;
+  year: string;
+  tech: string[];
+  description: string;
+  challenge: string;
+  solution: string;
+  responsibilities: string[];
+  results: string;
+  liveUrl?: string;
+  githubUrl?: string;
+  image: string;
+  color: string;
+}
+
+export const projects: Project[] = [
+  {
+    id: "echoing-dream-resort",
+    index: "01",
+    title: "Echoing Dream Resort",
+    category: "Luxury Villa Booking",
+    year: "2026",
+    tech: ["HTML5", "CSS3", "JavaScript", "GSAP", "Vercel"],
+    description:
+      "A production website for a real private four-bedroom pool villa in Baddegama, near Galle, Sri Lanka — full property showcase, room details, guest experiences and a WhatsApp-driven enquiry flow, replacing the client's outdated site.",
+    challenge:
+      "The client needed a site that felt as considered as the villa itself — minimal, image-led and calm — built entirely from scratch with their real photography, without a booking backend, while still making it effortless for guests to check dates and enquire.",
+    solution:
+      "I hand-built a fully responsive single-page site (no framework) around the client's own photography: a cinematic hero, story and experience sections, a room slider for each of the four suites, a full-bleed pool section, a lightbox gallery, an embedded location map, guest testimonials, an FAQ accordion and a contact form that builds a pre-filled WhatsApp message on submit. I also handled full on-page SEO — schema.org LodgingBusiness and FAQPage structured data, Open Graph/Twitter cards, sitemap.xml and a custom favicon — and deployed it on Vercel.",
+    responsibilities: [
+      "Hand-coded HTML/CSS/JS build (no framework)",
+      "GSAP scroll & reveal animations",
+      "WhatsApp-integrated enquiry flow",
+      "SEO (structured data, Open Graph, sitemap)",
+      "Real client photography curation & optimization",
+    ],
+    results:
+      "Delivered a polished, production site for a real, operating villa business — replacing their previous site with a faster, image-first, SEO-ready build guests can actually enquire through.",
+    liveUrl: "https://echoingdreamresort.com/",
+    image: "/images/projects/echoing-dream-resort.jpg",
+    color: "#A9834E",
+  },
+  {
+    id: "villa-aurelia",
+    index: "02",
+    title: "Villa Aurelia",
+    category: "Luxury Villa Booking & Admin CMS",
+    year: "2026",
+    tech: [
+      "Next.js 16",
+      "TypeScript",
+      "Tailwind CSS",
+      "PostgreSQL (Neon)",
+      "Framer Motion",
+    ],
+    description:
+      "A full-stack website and private admin system for a four-bedroom luxury villa in Galle Fort, southern Sri Lanka — a public booking site backed entirely by a database, plus a custom CMS so the owner can update every page, price and photo themselves.",
+    challenge:
+      "The client needed more than a brochure site: a polished public experience for browsing suites, experiences and dining, taking real bookings and enquiries — and a way to manage all of it (pricing, room details, gallery, testimonials, even page headings) without ever touching code or waiting on a developer.",
+    solution:
+      "I built a Next.js App Router site with every piece of content — villa copy, rooms, amenities, experiences, dining, gallery, testimonials, contact info, booking pricing, and even page hero text — served from a Postgres (Neon) database, with a static fallback so the site never breaks if the database is briefly unreachable. Behind a signed-cookie authenticated /admin panel, the owner gets a dashboard plus full CRUD across every content type, a live bookings and enquiries inbox, and per-page settings editors. Each experience also has its own detail page with a secondary photo, distance and 'Get Directions' link, and a 'Good to Know' section. The booking flow and contact form write directly into the database rather than just sending an email.",
+    responsibilities: [
+      "Full-stack Next.js 16 (App Router) build with a Postgres (Neon) backend",
+      "Custom admin authentication (signed HMAC session cookies, no third-party auth service)",
+      "Admin CMS: CRUD for rooms, amenities, experiences, gallery, dining, testimonials, and page content",
+      "Dynamic, database-backed page content — no hardcoded marketing copy",
+      "Booking flow and contact form wired to real database tables",
+      "Experience detail pages with distance/directions and practical trip info",
+    ],
+    results:
+      "Delivered a fully dynamic villa website the owner can run day-to-day without a developer — every page, price and photo editable from a private dashboard — with real bookings and guest enquiries captured and manageable in one place.",
+    liveUrl: "https://villa-modern.vercel.app/",
+    image: "/images/projects/au.png",
+    color: "#6B7F5E",
+  },
+  {
+    id: "villa-booking",
+    index: "03",
+    title: "Go House Proud",
+    category: "Service Booking Website",
+    year: "2026",
+    tech: ["Next.js 13", "MySQL", "Custom CMS", "Plesk"],
+    description:
+      "A booking and lead-generation website for a cleaning services business, backed by a custom-built content management system.",
+    challenge:
+      "The client needed a fast marketing site with a real content backend they could manage themselves, deployed on constrained shared hosting.",
+    solution:
+      "I built a lightweight custom CMS on MySQL, paired it with a Next.js 13 frontend for speed and SEO, and configured deployment for Plesk-based shared hosting — working around its Node.js hosting limitations.",
+    responsibilities: [
+      "Full-stack build (Next.js + custom CMS)",
+      "MySQL schema design",
+      "Shared-hosting deployment strategy",
+      "Booking & enquiry flow",
+    ],
+    results:
+      "Delivered a production site with a fully self-serve content backend, live on shared hosting with no dedicated Node server required.",
+    image: "/images/projects/ghp.jpg",
+    color: "#a8b5a2",
+  },
+  {
+    id: "loan-management",
+    index: "04",
+    title: "Loan Management System",
+    category: "Fintech / Admin Platform",
+    year: "2025",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Vercel"],
+    description:
+      "A demo daily & monthly loan management platform for lender staff — loan portfolio administration, collections and reporting behind an admin sign-in.",
+    challenge:
+      "Loan officers need one place to manage a portfolio running on both daily and monthly repayment cycles, track collections, and report on performance, without the complexity of a legacy banking system.",
+    solution:
+      "I built an admin-first platform around daily and monthly loan cycles, with dedicated portfolio, collections and reporting views behind authenticated admin access — prioritising a clean, functional interface over decorative complexity.",
+    responsibilities: [
+      "Next.js/TypeScript admin platform build",
+      "Daily & monthly loan portfolio structure",
+      "Collections administration views",
+      "Reporting & analytics UI",
+    ],
+    results:
+      "Delivered a working demo of a lender-facing loan operations platform, covering portfolio, collections and reporting in one authenticated system.",
+    liveUrl: "https://loan-management-system-liard-theta.vercel.app/",
+    image: "/images/projects/loan.jpg",
+    color: "#4f8fc0",
+  },
+  {
+    id: "corporate-site",
+    index: "05",
+    title: "Eco Facility Management",
+    category: "Corporate Website",
+    year: "2023",
+    tech: ["WordPress", "Elementor", "PHP", "Child Theme"],
+    description:
+      "A corporate marketing site for a Melbourne-based commercial cleaning company, with an auto-provisioning child theme.",
+    challenge:
+      "The client wanted a premium, dark-themed brand presence they could roll out quickly without a lengthy build process.",
+    solution:
+      "I developed a full auto-setup Elementor child theme so the site could be provisioned and styled consistently in a fraction of the usual setup time, before iterating toward a fully custom Next.js rebuild of the same dark aesthetic.",
+    responsibilities: [
+      "Child theme architecture",
+      "Auto-provisioning setup flow",
+      "Brand-consistent component library",
+    ],
+    results:
+      "Cut theme setup time significantly and established a reusable base for future dark-themed corporate builds.",
+    liveUrl: "https://ecofacilitymanagement.com.au/",
+    image: "/images/projects/ecofacility.png",
+    color: "#8a8f98",
+  },
+  {
+    id: "amrit-palace",
+    index: "06",
+    title: "Amrit Palace",
+    category: "Restaurant Website",
+    year: "2026",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "Framer Motion"],
+    description:
+      "A fine-dining Indian restaurant website for Amrit Palace in Galle, Sri Lanka, built as a fully custom Next.js site with cinematic scroll storytelling and a live reservation flow.",
+    challenge:
+      "The client wanted a premium, cinematic web presence that felt bespoke rather than templated, with a complete à la carte menu and a working table-reservation system — not just a static brochure site.",
+    solution:
+      "I built the site from scratch in Next.js and TypeScript with a custom design system: a bold charcoal-and-ember palette and heavyweight display type breaking from generic restaurant-template defaults, Framer Motion scroll reveals with one deliberate cinematic peak, a dedicated full-menu page, and a bespoke reservation form with meal-aware time slots and a searchable country-code phone picker.",
+    responsibilities: [
+      "Full front-end development",
+      "Custom design system and art direction",
+      "Scroll-driven animation and interaction design",
+      "Reservation flow logic and form UX",
+    ],
+    results:
+      "Shipped a fully responsive, production-ready site with a distinct visual identity, a dedicated menu page, and a working reservation flow, deployed as the restaurant's live online presence.",
+    liveUrl: "https://restaurants-web-theta.vercel.app/",
+    image: "/images/projects/restaurant.png",
+    color: "#c1401c",
+  },
+  {
+    id: "sms-gateway",
+    index: "07",
+    title: "Managed Bulk SMS Platform",
+    category: "SaaS Admin Platform",
+    year: "2026",
+    tech: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Drizzle ORM",
+      "BullMQ",
+      "Redis",
+      "Tailwind CSS",
+    ],
+    description:
+      "A multi-tenant bulk SMS platform for managing business customers, campaigns, and delivery at scale — built as a full-stack admin system with real SMS provider integration, not a demo shell.",
+    challenge:
+      "The platform needed to handle real operational complexity: multiple business customers with their own approval requirements and pricing, a compliance-gated campaign workflow, role-based access for internal staff, provider-agnostic SMS delivery with retries and status tracking, and billing — all behind a single, coherent admin experience.",
+    solution:
+      "I built the system end-to-end in Next.js with Server Actions, Drizzle ORM over PostgreSQL, and BullMQ/Redis for the send-and-retry pipeline, integrating Text.lk as the live delivery provider with real-time status polling. I designed a DB-driven role and permission system so access changes take effect immediately, a full campaign lifecycle (draft → approval → scheduling → delivery), contact and contact-group management feeding directly into campaign recipient selection, a reusable message-template library, sender ID approval workflows, invoicing and profitability tracking per company, and an internal notification system that alerts staff when something needs their attention.",
+    responsibilities: [
+      "Full-stack architecture and development",
+      "Database schema and permission system design",
+      "SMS provider integration and delivery pipeline (queue, retries, status tracking)",
+      "Admin UX for campaigns, billing, contacts, and role management",
+    ],
+    results:
+      "Shipped a production-grade internal admin platform with live SMS sending, a complete campaign approval and billing workflow, and role-gated CRUD across every operational area of the business — company management, contacts, templates, sender IDs, and audit logging.",
+    liveUrl: "",
+    image: "/images/projects/sms.jpg",
+    color: "#2563eb",
+  },
+];

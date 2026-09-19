@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="900" viewBox="0 0 1200 900">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a0a0b"/>
+      <stop offset="55%" stop-color="#131315"/>
+      <stop offset="100%" stop-color="#e0995e18"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#e0995e40"/>
+      <stop offset="100%" stop-color="#e0995e00"/>
+    </radialGradient>
+    <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+      <path d="M 60 0 L 0 0 0 60" fill="none" stroke="#e0995e" stroke-opacity="0.06" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="900" fill="url(#bg)"/>
+  <rect width="1200" height="900" fill="url(#grid)"/>
+  <rect width="1200" height="900" fill="url(#glow)"/>
+  <g transform="translate(600, 396)" stroke="#e0995e" fill="none" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+    
+    <circle cx="0" cy="-90" r="18"/>
+    <circle cx="-130" cy="70" r="18"/>
+    <circle cx="130" cy="70" r="18"/>
+    <circle cx="0" cy="70" r="18"/>
+    <line x1="0" y1="-90" x2="-130" y2="70"/>
+    <line x1="0" y1="-90" x2="130" y2="70"/>
+    <line x1="0" y1="-90" x2="0" y2="70"/>
+    <line x1="-130" y1="70" x2="130" y2="70"/>
+  
+  </g>
+  <rect x="0" y="898" width="1200" height="2" fill="#e0995e" opacity="0.25"/>
+  <text x="60" y="844" font-family="Arial, sans-serif" font-size="22" letter-spacing="4" fill="#e0995e" opacity="0.75" font-weight="700">AD SERVING</text>
+  <circle cx="1130" cy="70" r="4" fill="#e0995e" opacity="0.6"/>
+  <circle cx="1130" cy="70" r="10" fill="none" stroke="#e0995e" stroke-width="1" opacity="0.35"/>
+</svg>
