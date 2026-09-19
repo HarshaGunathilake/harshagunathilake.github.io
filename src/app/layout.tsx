@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { GoogleAnalytics } from "@next/third-parties/google";
 import "@fontsource-variable/manrope";
 import "@fontsource-variable/space-grotesk";
 import "./globals.css";
@@ -98,6 +99,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           <div className="grain-overlay" aria-hidden="true" />
           {children}
         </SmoothScroll>
+        <GoogleAnalytics gaId="G-C0REVFNXL6" />
       </body>
     </html>
   );
