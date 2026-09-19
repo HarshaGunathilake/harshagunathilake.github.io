@@ -62,10 +62,9 @@ export default function About() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="text-display mt-4 text-[8vw] sm:text-5xl lg:text-[3.4rem] leading-[1.05] font-medium tracking-tight">
-              I build modern digital products that combine thoughtful design,
-              scalable architecture, and reliable engineering from web
-              applications and business platforms to OTT, e-commerce, and custom
-              digital experiences.
+              I&apos;m a Full-Stack Developer creating polished digital
+              products, from web applications and business platforms to OTT,
+              e-commerce, and custom solutions.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
