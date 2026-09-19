@@ -9,9 +9,9 @@ import { useReducedMotion } from "@/lib/useReducedMotion";
 
 const STATS = [
   { value: 5, suffix: "+", label: "Years Experience" },
-  { value: 30, suffix: "+", label: "Projects" },
+  { value: 25, suffix: "+", label: "Projects" },
   { value: 20, suffix: "+", label: "Technologies" },
-  { value: 15, suffix: "+", label: "Clients" },
+  { value: 7, suffix: "+", label: "Clients" },
 ];
 
 export default function About() {
@@ -21,14 +21,21 @@ export default function About() {
     target: imgWrapRef,
     offset: ["start end", "end start"],
   });
-  const imgY = useTransform(scrollYProgress, [0, 1], reduced ? [0, 0] : [-40, 40]);
+  const imgY = useTransform(
+    scrollYProgress,
+    [0, 1],
+    reduced ? [0, 0] : [-40, 40],
+  );
 
   return (
     <section id="about" className="relative bg-[var(--bg)] py-28 lg:py-40">
       <div className="container-px grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-start">
         <div className="lg:col-span-5">
           <Reveal>
-            <div ref={imgWrapRef} className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]">
+            <div
+              ref={imgWrapRef}
+              className="relative aspect-[4/5] overflow-hidden rounded-2xl border border-[var(--border)] bg-[var(--bg-elevated)]"
+            >
               <motion.div style={{ y: imgY }} className="absolute inset-[-8%]">
                 <Image
                   src="/images/harsha-portrait.jpg"
@@ -55,17 +62,23 @@ export default function About() {
           </Reveal>
           <Reveal delay={0.1}>
             <h2 className="text-display mt-4 text-[8vw] sm:text-5xl lg:text-[3.4rem] leading-[1.05] font-medium tracking-tight">
-              I&apos;m a Full-Stack Developer with 5+ years of experience building modern web
-              applications, dashboards, e-commerce platforms, and digital products.
+              I build modern digital products that combine thoughtful design,
+              scalable architecture, and reliable engineering from web
+              applications and business platforms to OTT, e-commerce, and custom
+              digital experiences.
             </h2>
           </Reveal>
           <Reveal delay={0.2}>
             <p className="mt-8 max-w-xl text-[var(--muted)] leading-relaxed">
-              I work across the stack — React, Next.js, Angular on the frontend; Node.js and
-              Laravel on the backend — shipping production systems for streaming platforms,
-              publishing companies, ERP suites, and client businesses across three continents.
-              I care about clean architecture, secure production infrastructure, and interfaces
-              that feel considered down to the last transition.
+              I build digital products across the full stack — from immersive,
+              high-performance interfaces with React, Next.js, and Angular to
+              robust backend systems powered by Node.js and Laravel. My work
+              spans OTT and streaming platforms, media and publishing systems,
+              ERP and business applications, payment and advertising platforms,
+              and custom digital experiences for businesses across international
+              markets. I focus on turning complex requirements into clean,
+              scalable products with thoughtful UX, reliable architecture, and
+              production-ready infrastructure.
             </p>
           </Reveal>
 
@@ -78,7 +91,9 @@ export default function About() {
                     suffix={stat.suffix}
                     className="text-display block text-4xl sm:text-5xl font-medium tracking-tight text-[var(--fg)] tabular-nums"
                   />
-                  <span className="mt-2 block text-sm text-[var(--muted)]">{stat.label}</span>
+                  <span className="mt-2 block text-sm text-[var(--muted)]">
+                    {stat.label}
+                  </span>
                 </div>
               </Reveal>
             ))}

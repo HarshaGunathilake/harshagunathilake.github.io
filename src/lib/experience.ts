@@ -37,7 +37,7 @@ export const experience: ExperienceItem[] = [
   },
   {
     company: "Insighture",
-    role: "Quality Assurance Analyst (Contract)",
+    role: "Quality Assurance Analyst",
     duration: "January 2020 — March 2020",
     location: "Sri Lanka",
     description:

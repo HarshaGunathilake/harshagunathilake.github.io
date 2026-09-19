@@ -46,7 +46,7 @@ export default function Footer() {
       <div className="container-px">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-12 pb-16">
           <div>
-            <p className="text-display text-3xl sm:text-4xl font-medium tracking-tight mb-4">HARSHAGUNATHILAKE.DEV</p>
+            <p className="text-display text-3xl sm:text-4xl font-medium tracking-tight mb-4">HARSHA GUNATHILAKE</p>
             <p className="text-[var(--muted)] max-w-sm">
               Full-Stack Developer based in Sri Lanka, available for freelance projects and collaborations worldwide.
             </p>
