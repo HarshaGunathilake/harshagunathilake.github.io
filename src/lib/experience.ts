@@ -51,6 +51,6 @@ export const experience: ExperienceItem[] = [
     location: "Sri Lanka",
     description:
       "Managed the organisation's social media channels — Facebook, Twitter and LinkedIn — keeping branding and messaging consistent. Planned, ran and optimised Facebook ad campaigns to drive website traffic and lead generation, alongside building out the organisation's web platform.",
-    tech: ["Social Media", "Meta Ads", "WordPress"],
+    tech: ["Social Media"],
   },
 ];
