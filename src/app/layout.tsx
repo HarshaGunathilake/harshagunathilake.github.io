@@ -6,7 +6,7 @@ import SmoothScroll from "@/components/animations/SmoothScroll";
 import CustomCursor from "@/components/cursor/CustomCursor";
 import ScrollProgress from "@/components/ui/ScrollProgress";
 
-const SITE_URL = "https://harshagunathilake.dev";
+const SITE_URL = "https://harshagunathilake.github.io";
 
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
