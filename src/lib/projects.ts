@@ -330,4 +330,29 @@ export const projects: Project[] = [
     color: "#2563eb",
   },
   
+  {
+    id: "spade-lk",
+    index: "13",
+    title: "Spade.lk",
+    category: "E-Commerce Website & Server Management",
+    year: "2026",
+    tech: ["WooCommerce", "WordPress", "PHP", "MySQL", "Server Administration"],
+    description:
+      "Ongoing website and server infrastructure management for one of Sri Lanka's leading bag retail e-commerce businesses, running on WooCommerce.",
+    challenge:
+      "The business needed someone to keep a live, revenue-generating WooCommerce store and its production server reliable day to day — stable under real customer traffic, fast, and quick to recover when something in the stack breaks.",
+    solution:
+      "I manage the website and production server environment end-to-end: maintaining the WooCommerce platform, handling server configuration, troubleshooting production issues as they arise, and optimizing performance across the stack to keep the store fast and operational.",
+    responsibilities: [
+      "WooCommerce platform maintenance",
+      "Production server configuration and management",
+      "Troubleshooting production issues",
+      "Performance optimization",
+    ],
+    results:
+      "Keep the platform reliable and operational on an ongoing basis, with production issues resolved quickly and performance actively maintained.",
+    liveUrl: "https://spade.lk/",
+    image: "/images/projects/spade-lk.webp",
+    color: "#d6007f",
+  },
 ];

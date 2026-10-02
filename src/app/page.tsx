@@ -9,6 +9,7 @@ import Manifesto from "@/components/manifesto/Manifesto";
 import About from "@/components/about/About";
 import TechMarquee from "@/components/marquee/TechMarquee";
 import Experience from "@/components/experience/Experience";
+import Education from "@/components/education/Education";
 import SelectedWork from "@/components/projects/SelectedWork";
 import Services from "@/components/services/Services";
 import Skills from "@/components/skills/Skills";
@@ -42,6 +43,7 @@ export default function Home() {
         <About />
         <TechMarquee />
         <Experience />
+        <Education />
         <SelectedWork />
         <Services />
         <Skills />
